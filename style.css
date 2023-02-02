@@ -1,0 +1,267 @@
+
+/* header-section */
+
+.main-header{
+	background-image: url(https://i.postimg.cc/sX4bS5W9/banner-bg.png);
+	background-size: cover;
+	background-size: 100%;
+	height: 620px;
+	background-repeat: no-repeat;
+
+}
+.header-menu{
+	width: 80%;
+	margin: auto;
+	background-color:#2b2a29;
+	clip-path: polygon(0 0,100% 0,96% 100%,3% 100%);
+	height: auto;
+	padding: 10px 0;
+
+}
+.header-menu ul {
+	text-align: center;
+}
+.header-menu ul  li {
+	display: inline-block;
+	list-style: none;
+}
+.header-menu ul  li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	transition: .5s;
+	font-weight: 500;
+}
+.header-menu ul  li a:hover{
+	color: rgb(245, 119, 8);
+}
+.banner-heading h1{
+	margin-top: 13px;
+	font-weight: 900;
+	color: white;
+}
+/* .2nd-menu */
+.search.d-block {
+	margin-left: 20%;
+	margin-top: -38px;
+}
+.secnd-menu{
+	max-width: 1020px;
+	margin: auto;
+}
+.bar {
+	display: inline-block;
+	font-size: 44px;
+	color: white;
+	margin-top: 8px;
+}
+.dropdown.d-block {
+	margin-left: 6%;
+	margin-top: -5%;
+}
+.contury.d-block {
+	margin-left: 81%;
+	margin-top: -54px;
+}
+.contury img {
+	max-width: 21%;
+}
+.btn.btn-light.dropdown-toggle {
+	width: 149px;
+	margin-left: -50px;
+}
+.cart ul {
+	text-align: end;
+	margin-top: -32px;
+	margin-right: 28px;
+}
+.input-group.mb-3.w-75 {
+	max-width: 69%;
+}
+.cart ul li {
+	display: inline-block;
+	list-style: none;
+}
+.cart ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	
+}
+.cart, ul li a i{
+
+	color: white;
+}
+.user ul {
+	text-align: end;
+	margin-top: -40px;
+	margin-right: -38px;
+}
+.user ul li {
+	display: inline-block;
+	list-style: none;
+}
+.user ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	
+}
+.user, ul li a i{
+	color: white;
+}
+.banner-heading h1{
+	font-size: 60px;
+}
+.banner-btn a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-weight: 700;
+	height: 50px;
+	width: 156px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 6px;
+	background-color: black;
+	transition: .5s;
+}
+.banner-btn a:hover{
+	color: rgba(4, 77, 187, 0.775);
+	background-color: #f26522;
+}
+.banner-btn{
+	display: flex;
+	justify-content: center;
+}
+.left-arrow {
+	color: rgb(33, 3, 3);
+	text-align: center;
+	background: #efd494;
+	border-radius: 50%;
+	font-size: 8px;
+	height: 42px;
+	width: 44px;
+	margin-top: 7%;
+	margin-left: 10%;
+}
+.carousel-control-next.left-arrow {
+	margin-right: 7%;
+}
+.left-arrow span i{
+	font-size: 15px;
+}
+/* <!-- slider-section  end--> */
+
+/* <!-- Electronic --> */
+.electronic-w{
+	max-width: 1120px;
+}
+.card-height{
+	height: 1105
+	;
+}
+.Electronic-item-text h5{
+	font-weight: 700;
+	font-size: 20px;
+}
+.Electronic-item-text h6{
+	display: inline-block;
+	color: #f26522;
+	font-size: 17px;
+}
+.Electronic-item-text p{
+	display: inline-block;
+}
+.buy-now-btn a{
+	color: #f26522;
+	font-weight: 700;
+	margin-left: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.see-more-btn a {
+	color: #120702c9;
+	font-weight: 500;
+	margin-right: 20px;
+	margin-top: -24px;
+	text-decoration: none;
+	display: block;
+	transform: .5s;
+}
+.see-more-btn a:hover{
+	color: #f93008;
+
+}
+.Electronic-heading  h1{
+	font-weight: 700;
+	font-size: 40px;
+}
+.electronic-arrow1 {
+	position: absolute;
+}
+.electronic-arrow1 span i {
+	background-color: black !important;
+	height: 47px;
+	width: 58px;
+	line-height: 50px;
+	top: 106%;
+	position: absolute;
+	left: 267%;
+	font-size: 20px;
+}
+.electronic-arrow2 span i {
+	background-color: black!important;
+	height: 47px;
+	width: 58px;
+	line-height: 50px;
+	top: 106%;
+	position: absolute;
+	left: -192%;
+	font-size: 20px;
+}
+/* footer-section */
+.footer-sec{
+	margin-top: 10%;
+	background-color: #252525;
+}
+.footer-heading h1{
+	font-size: 50px;
+	font-weight: 900;
+	margin-top: 8%;
+	color: white;
+}
+.input input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 50%;
+	color: white;
+	background-color: transparent;
+}
+.input p {
+	margin-bottom: 1rem;
+	margin-left: 41%;
+	margin-top: -3%;
+	color: red;
+}
+.header-menu2 ul {
+	text-align: center;
+}
+.header-menu2 ul  li {
+	display: inline-block;
+	list-style: none;
+}
+.header-menu2 ul  li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	transition: .5s;
+	font-weight: 500;
+}
+.header-menu2 ul  li a:hover{
+	color: rgb(245, 119, 8);
+}
